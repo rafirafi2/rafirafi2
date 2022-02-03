@@ -1,0 +1,310 @@
+* {/* changes all fonts to arial, san-serif */
+font-family: Arial, sans-serif;
+}
+body {/* setting background image */
+  background-image: url('killa2.png');
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: 25%;
+}
+
+h1 {/* White font header1 centered */
+	color: #FFFFFF;
+	text-indent: 45%;
+}
+
+h2 {/* White font header2 centered */
+	color: #FFFFFF;
+	text-indent: 43.5%;
+}
+
+h3.head1 {/* White font header3 centered */
+	color: #FFFFFF;
+	text-indent: 44.5%;
+}
+
+h3.head2 {/* White font header3 centered */
+	color: #FFFFFF;
+	text-indent: 46%;
+}
+
+h3.head3 {/* White font header3 centered */
+	
+	color: #FFFFFF;
+	text-align: center;
+}
+
+h4 {/* White font header4 centered */
+	color: #FFFFFF;
+	text-indent: 5%;
+}
+
+h5 {/* White font header5 centered */
+	color: #FFFFFF;
+	text-decoration: underline;
+	text-indent: 38%;
+}
+
+
+a{
+	text-decoration:none;
+}
+
+ul{/* unordered list styling */
+	color: #FFFFFF;
+	
+}
+
+ul.style1{ /* seperate style for first list i did with the hat as bullet points :: unordered list styling */
+	color: #FFFFFF;
+	padding-left: 890px;
+	list-style-image: url('bullets3.png');
+	
+}
+
+ol.style2{ /* seperate style for job list :: ordered list styling */
+	color: #FFFFFF;
+	
+	padding-left: 850px;
+}
+
+ol{/* ordered list styling */
+	color: #FFFFFF;
+	
+}
+
+#top10{/* spacing for top 10 list */
+	color: #FFFFFF;
+	padding-left: 850px;
+}
+
+#history{/* allows for nested loop in history section so it doesnt format bad */
+	color: #FFFFFF;
+	padding-left: 850px;
+}
+
+#indent1 {/* indents gsu link to the middle */
+
+    text-indent: 42%;
+
+}
+
+#headshot {/* headshot image to the middle */
+	
+	text-indent: 45%;
+	
+}
+
+
+#assignments {/* sets font color to white for assignments div */
+	
+	color: #FFFFFF;
+
+}
+
+div.test{/*testing image background for div*/
+	background-image: url('killar.png');
+	background-size: 50%
+}
+
+#Topalbums{/*image background for div albums*/
+	background-image: url('killab.png');
+	background-size: 50%
+}
+
+#education{/*image background for div education*/
+	background-image: url('killabb.png');
+	background-size: 50%
+}
+
+#quote{/*image background for div quote*/
+	background-image: url('killay.png');
+	background-size: 50%
+}
+
+#header41{
+	list-style-image: url('trans.png');
+}
+
+#header42{
+	list-style-image: url('trans.png');
+}
+
+img.headshot {/* image specs for headshot */
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 1px;
+  width: 200px;
+}
+
+img.doffy {/* image specs for doffy(doflamingo) */
+  padding-left: 700px;
+  width: 500px;
+}
+
+img.background {/* image specs for killaqueen */
+  padding-left: 1600px;
+  width: 200px;
+}
+
+img.accents {/* image specs for menacing jojo */
+   position: relative;
+}
+img.accents:hover {/* image specs for menacing jojo */
+   
+  transform: scaleX(-1);
+}
+
+img.accents2 {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transform: scaleX(-1);
+}
+
+img.accents4 {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  transform: scaleX(-1);
+  height: 500px;
+  width: 290px;
+}
+
+img.accents3 {
+  position: absolute;
+  left: 20px;
+  
+}
+
+img.background:hover {/* makes killa queen switch around */
+  
+  transform: scaleX(-1);
+}
+
+#table{/* table allignment */
+	margin-top: 10px;
+    margin-left: 765px;
+}
+
+table {/* table space so it can breatheeeee */
+  border-spacing: 5px;
+}
+
+#row1{/* zebra table color1 */
+	background-color: black;
+}
+
+#rowa{/* zebra table color1 */
+	background-color: red;
+}
+
+#rowc{/* zebra table color2 */
+	background-color: blue;
+}
+
+#rowd{/* zebra table color3 */
+	background-color: orange;
+}
+
+#rowe{/* zebra table color4 */
+	background-color: purple;
+}
+
+#rowf{/* zebra table color5 */
+	background-color: green;
+}
+
+tr:nth-child(odd){/* zebra table default color */
+	background-color: black;
+}
+
+a.link:link{/* hyperlink white color and underline only */
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+a.link:visited{/* hyperlink white color and underline only when visited the site*/
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+a.link:hover{/* hyperlink white color and underline only */
+   color: #00FFFB;
+   text-decoration: dashed underline overline;
+}
+a.link:active{/* hyperlink white color and underline only */
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+
+#hide{
+	color: #000;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+#hide2{
+	list-style-image: url('trans.png');
+}
+
+#tableofcontents{
+	width: 1300px;
+	height: 200px;
+	margin: auto;
+    display: flex;
+    justify-content: center;
+	clear:left;
+}
+
+#internal{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+section{
+	display: block;
+}
+
+#s1{
+	background-image: url('killa2.png');
+	width: 300px;
+	height: auto;
+	clear:left;
+	margin: 10px;
+}
+
+#s2{
+	background-image: url('killar.png');
+	width: 300px;
+	height: auto;
+
+	margin: 10px;
+}
+
+#s3{
+	background-image: url('killab.png');
+	width: 300px;
+	height: auto;
+
+	margin: 10px;
+}
+
+#s4{
+	background-image: url('killabb.png');
+	width: 300px;
+	height: auto;
+
+	margin: 10px;
+}
+
+#s5{
+	background-image: url('killay.png');
+	width: 300px;
+	height: auto;
+
+	margin: 10px;
+}
+
+#head{
+	text-indent: 20%;
+}
